@@ -1,5 +1,5 @@
 const axios = require('axios')
-const mapArrToString = require('./mapArrToString.js')
+const mapArrToString = require('../mapArrToString/mapArrToString')
 
 const getData= async()=>{
     try{
